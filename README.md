@@ -52,7 +52,7 @@ Dev tools:
 ## My past projects:
 
 ### *[Tutorial / Instruction consolidation for ChromeOS' crostini container](https://github.com/7fours/crostini)*
-- - at this point, basically deprecated as the default Debian build with proper modifications is faster/leaner
+- at this point, basically deprecated as the default Debian build with proper modifications is faster/leaner
 
 ### *[Auto Minecraft Server](https://github.com/7fours/auto-mcserver)*:
 Auto generate a vanilla, paper, fabric, or a premade paper server with plugins preinstalled.
