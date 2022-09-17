@@ -1,10 +1,71 @@
-- 👋 Hi, I’m @7fours (alyx)
-- 👀 I’m interested in ... A lot of quality of life scripts. mostly linux currently, but transitioning to understanding Windows scripting/powershell
-- 🌱 I’m currently learning ... Mostly python and shell but quickly trying to learn Powershell as well
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- Hi! My name is Alyx
+- I mostly make python scripts but also do some shell scripting and am trying to learn Powershell!
 
-<!---
-7fours/7fours is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# My current Projects:
+
+## alyx-system-utilities
+Quality of life improvements for linux and windows systems. In essence, just a cli wrapper for a multitude of applications
+
+- Universal Package Manager (upm)
+```
+        Universal Package Manager/upm     
+        [written/maintained by Alyxx]
+        
+    !! might/should work with winget? !!
+
+Usage: [-I] [-R] [-U] [-P] [-d]
+       [--manager] [--sandbox] [--autoremove] [--debug]
+ex. [upm -I firefox] Would install the firefox from our repository
+ex. [upm -I firefox --manager snap] Would install the snap version of firefox
+Options:
+-I, --install        Installs specified package
+-R, --remove         Removes specified package
+-U, --update         Updates packages in background then upgrades available packages
+-P, --purge          Remove package as well as all dependencies/unused related packages
+-d, --details        Gives information on the specified package as well as the dependencies
+Long commands only:
+--no-confirm         Don't require confirmation for further permissions
+--manager            If a specific package manager needs to be used, use this flag
+--autoremove         Autoremove unused/unneeded packages from system
+Dev tools:
+--sandbox            sandbox and test package without installing to system [WIP]
+--debug
+```
+```
+To-Do list:
+        --add all package managers
+        --finish adding all options and main functions
+        --find a way to push and pull from repos from within script?
+        --add manager.conf file
+        --make downloader function
+        --add winget commands
+        --add pacstall
+        --finish help/man page
+
+```
+# Future Projects:
+
+- develop my own interactive shell at some point
+
+## My past projects:
+
+### Auto Minecraft Server:
+Auto generate a vanilla, paper, fabric, or a premade paper server with plugins preinstalled.
+
+```
+usage: generate.py [-h] [-a] [-g] [-v] [-p] [-f] [-c] [-l] [-pb] [-ap] [-vr VERSION]
+
+options:
+  -h, --help            show this help message and exit
+  -a, --auto-start      auto-start minecraft server after generated
+  -g, --gui             enable gui for auto-start (BY DEFAULT OFF, ONLY USE FLAG IF WANTED)
+  -v, --vanilla         create vanilla mc server
+  -p, --paper           create papermc server
+  -f, --fabric          create fabric mc server
+  -c, --custom          create premade custom server
+  -l, --local           Local server
+  -pb, --public         Public server
+  -ap, --add-plugins    add custom plugins set without the whole server file
+  -vr VERSION, --version VERSION
+                        desired version. by default, set to newest available.
+```
