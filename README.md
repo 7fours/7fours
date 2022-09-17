@@ -2,7 +2,7 @@
 - I mostly make python scripts but also do some shell scripting and am trying to learn Powershell!
 
 # Recommendations!:
-## *winutil*
+## *[winutil](https://github.com/7fours/winutil)*
 - ***not my project and I doubt I will have much to add to it! I forked it simply to keep it on my profile***
 - open Powershell as administrator and use following command to start script:
 ```
@@ -12,7 +12,7 @@ iwr -useb https://christitus.com/win | iex
 
 # My current Projects:
 
-## *alyx-system-utilities*
+## *[alyx-system-utilities](https://github.com/7fours/alyx-system-utilities)*
 Quality of life improvements for linux and windows systems. In essence, just a cli wrapper for a multitude of applications
 
 - Universal Package Manager (upm)
@@ -51,11 +51,10 @@ Dev tools:
 
 ## My past projects:
 
-### *Tutorial/Instruction consolidation for ChromeOS' crostini container*
-- **See [crostini](https://github.com/7fours/crostini) repo**
+### *[Tutorial/Instruction consolidation for ChromeOS' crostini container](https://github.com/7fours/crostini)*
 - - at this point, basically deprecated as the default Debian build with proper modifications is faster/leaner
 
-### *Auto Minecraft Server*:
+### *[Auto Minecraft Server](https://github.com/7fours/auto-mcserver)*:
 Auto generate a vanilla, paper, fabric, or a premade paper server with plugins preinstalled.
 
 ```
