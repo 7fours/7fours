@@ -3,6 +3,8 @@
 
 # My current Projects:
 
+#### not my project and I doubt I will have much to add to it but I highly recommend checking out the winutil repo! I forked it simply to keep it on my profile
+
 ## alyx-system-utilities
 Quality of life improvements for linux and windows systems. In essence, just a cli wrapper for a multitude of applications
 
