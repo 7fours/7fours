@@ -1,11 +1,18 @@
 - Hi! My name is Alyx
 - I mostly make python scripts but also do some shell scripting and am trying to learn Powershell!
 
+# Recommendations!:
+## *winutil*
+- ***not my project and I doubt I will have much to add to it! I forked it simply to keep it on my profile***
+- open Powershell as administrator and use following command to start script:
+```
+iwr -useb https://christitus.com/win | iex
+```
+- Has various packages along with essential tweaks to the Windows backend and update system
+
 # My current Projects:
 
-#### not my project and I doubt I will have much to add to it but I highly recommend checking out the winutil repo! I forked it simply to keep it on my profile
-
-## alyx-system-utilities
+## *alyx-system-utilities*
 Quality of life improvements for linux and windows systems. In essence, just a cli wrapper for a multitude of applications
 
 - Universal Package Manager (upm)
@@ -56,7 +63,7 @@ To-Do list:
 
 ## My past projects:
 
-### Auto Minecraft Server:
+### *Auto Minecraft Server*:
 Auto generate a vanilla, paper, fabric, or a premade paper server with plugins preinstalled.
 
 ```
