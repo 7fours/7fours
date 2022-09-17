@@ -45,18 +45,6 @@ Dev tools:
 --debug
 ```
 
-```
-To-Do list:
-        --add all package managers
-        --finish adding all options and main functions
-        --find a way to push and pull from repos from within script?
-        --add manager.conf file
-        --make downloader function
-        --add winget commands
-        --add pacstall
-        --finish help/man page
-
-```
 # Future Projects:
 
 - develop my own interactive shell at some point
