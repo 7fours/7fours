@@ -5,8 +5,19 @@
 
 ### *[alyx-system-utilities](https://github.com/7fours/alyx-system-utilities)*
 Quality of life improvements for linux and windows systems. In essence, just a cli wrapper for a multitude of applications
+- Alyx's shell wrapper (ash) WIP!
+- - Python based shell for asu extensions such as apm
+- - Not intended for, but can handle standard sh/ps1 calls as well
+```
+Usage: [--dir]
+```
+```
+        Alyx's Shell [ash]
+        
+[user] :: [current_directory] --> _ 
+```
 
-- Universal Package Manager (upm)
+- Alyx's Package Manager (apm)
 ```
         Universal Package Manager/upm     
         [written/maintained by Alyxx]
@@ -38,7 +49,6 @@ Dev tools:
 
 ## Future Projects:
 
-- Develop my own shell (ie. bash, zsh, powershell).
 - Develop my own coding/scriping language
 - 
 
