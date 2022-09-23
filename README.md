@@ -82,6 +82,16 @@ options:
 ###### ***not my project and I doubt I will have much to add to it! I forked it simply to keep it on my profile***
 - Has various packages along with essential tweaks to the Windows backend and update system
 - open Powershell as administrator and use following command to start script:
+
 ```
 iwr -useb https://raw.githubusercontent.com/7fours/winutil/master/winutil.ps1 | iex
 ```
+`iwr or InvokeWebRequest`: More commonly known as curl or wget
+
+`-useb` or `-UseBasicParsing`: Just a general flag directing iwr how to interpret the incoming data
+
+`https://raw.githubusercontent.com/7fours/winutil/master/winutil.ps1`: The url for the script on my github (this will take you to a raw view of the script) [*the script available for download/review just above*]
+
+`| iex`: Telling powershell that this is an executable script that is to be ran.
+
+*I highly discourage running random scripts from online, even from ppl you trust, without being able to go through and understand at least a small bit of what is happening so i thought this breakdown would be nice. I am literally only getting started in learning Powershell/ps1 language so im far from an expert but if anyone is weary i can try to run through it.*
