@@ -83,5 +83,5 @@ options:
 - Has various packages along with essential tweaks to the Windows backend and update system
 - open Powershell as administrator and use following command to start script:
 ```
-iwr -useb https://christitus.com/win | iex
+iwr -useb https://raw.githubusercontent.com/7fours/winutil/master/winutil.ps1 | iex
 ```
