@@ -3,6 +3,12 @@
 
 ## Current Projects:
 
+### *[discrypt](https://github.com/alyxxox/discrypt)*
+An encrypted backend for Discord messenger.
+Goals:
+- Encrypt/decrypt messages seamlessly
+- exchange keys between users outside of discord's servers
+
 ### *[alyx-system-utilities](https://github.com/7fours/alyx-system-utilities)*
 Quality of life improvements for linux and windows systems. In essence, just a cli wrapper for a multitude of applications
 - Alyx's shell wrapper (ash) WIP!
