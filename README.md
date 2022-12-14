@@ -90,13 +90,13 @@ options:
 - open Powershell as administrator and use following command to start script:
 
 ```
-iwr -useb https://raw.githubusercontent.com/7fours/winutil/master/winutil.ps1 | iex
+iwr -useb https://windows.alxcore.org | iex
 ```
 `iwr or InvokeWebRequest`: More commonly known as curl or wget
 
 `-useb` or `-UseBasicParsing`: Just a general flag directing iwr how to interpret the incoming data
 
-`https://raw.githubusercontent.com/7fours/winutil/master/winutil.ps1`: The url for the script on my github (this will take you to a raw view of the script) [*the script available for download/review just above*]
+`windows.alxcore.org`: A redirect for the script i set up for easier remembering. (this will take you to a raw view of the script)
 
 `| iex`: Telling powershell that this is an executable script that is to be ran.
 
