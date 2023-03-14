@@ -101,3 +101,20 @@ iwr -useb https://windows.alxcore.org | iex
 `| iex`: Telling powershell that this is an executable script that is to be ran.
 
 *I highly discourage running random scripts from online, even from ppl you trust, without being able to go through and understand at least a small bit of what is happening so i thought this breakdown would be nice. I am literally only getting started in learning Powershell/ps1 language so im far from an expert but if anyone is weary i can try to run through it.*
+
+*(ECC)*
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+xjMEY/8kLBYJKwYBBAHaRw8BAQdAtFp0ksrDq68KIBKpMzmo6lU833aEJpK7
+ChVvvZjy46nNM255YWtvQGgyZzYzLnRyYW5zZmVtLm5ldCA8bnlha29AaDJn
+NjMudHJhbnNmZW0ubmV0PsKMBBAWCgA+BQJj/yQsBAsJBwgJEHQfZSw95mj+
+AxUICgQWAAIBAhkBAhsDAh4BFiEEhY/8S/Sm46zcR8tbdB9lLD3maP4AAD3w
+AP93izyksrpDlcHsNr8DR5VzZBxcNBI2O0q2hUC6GO2NRAD+LbCu0F34/1ju
+fUqBn46sJkRKrTm1cmcFZgtKGUVSUwLOOARj/yQsEgorBgEEAZdVAQUBAQdA
+987g9plDLQnZaWJvizqYP3GyduFg3JomWvFucnPkeFIDAQgHwngEGBYIACoF
+AmP/JCwJEHQfZSw95mj+AhsMFiEEhY/8S/Sm46zcR8tbdB9lLD3maP4AAAoX
+AP9LzDKuGa4QTBszE53OmV1NsSIXE9ic2X9hl+OJut1ebgD/WHSzZ+wQ2jjY
+TclMiA+nPEJslLOr1NELZfy3wM3yAQM=
+=Qi/e
+-----END PGP PUBLIC KEY BLOCK-----```
